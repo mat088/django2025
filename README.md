@@ -1,2 +1,2 @@
 # django2025
-django project ver1
+django project ver3
