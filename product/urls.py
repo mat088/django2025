@@ -20,4 +20,8 @@ from . import views
 
 urlpatterns = [
     path('', views.index),
+<<<<<<< HEAD
+=======
+    path('<int:content_id>/', views.detail, name='detail'),
+>>>>>>> jay/240926c
 ]
