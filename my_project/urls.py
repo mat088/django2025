@@ -21,8 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('product/', include('product.urls')),
     path('', include('pages.urls')),
-<<<<<<< HEAD
-=======
     path('accounts/', include('accounts.urls')),
->>>>>>> jay/240926c
 ]
